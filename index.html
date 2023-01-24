@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Epicode Music</title>
+</head>
+
+<body>
+
+<style>
+
+    body{
+        background-color: LightGray;
+        font-family: Arial, serif;
+        margin: auto;
+        max-width: 500px;
+    }    
+
+    form{
+        max-width: 500px;
+        margin: auto;
+        padding: 25px;
+        background-color: WhiteSmoke;
+    }
+
+    input{
+            margin: 5px 2px 5px 2px;
+    }
+
+        a:link {
+                 color: gray;
+                 text-decoration: none
+        }
+
+        a:visited {
+                 color: gray;
+        }
+
+        a:hover {
+                 color: darkgray;
+        }
+
+</style>
+
+<p style="
+color:gray;
+font-size: 0.75em;
+">Epicode Music Service - All rights and copyright reserved 2023 &#169</p>
+
+<form onsubmit="alert('Registrazione inviata!')">
+
+    <h3 style="margin-top: 0px">Registrati!</h3>
+
+    <div>
+        <input style="width: 46%" type="text" placeholder="Nome"/>
+        <input style="width: 46%" type="text" placeholder="Cognome"/>
+    </div>
+
+    <div>
+        <input style="width: 95.1%" type="email" placeholder="Email"/>
+    </div>
+
+    <div>
+        <input type="password" placeholder="Password"/>
+    </div>
+
+    <div>
+        <input type="date" placeholder="Data di Nascita"/>
+        <input type="number" placeholder="Cellulare"/>
+    </div>
+
+    <div style="padding-top: 30px; padding-bottom: 30px">
+        <div>
+          <input type="checkbox" id="pop" name="pop">
+          <label for="pop">Pop</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="rap" name="rap">
+          <label for="rap">Rap</label>
+        </div>
+    
+        <div>
+          <input type="checkbox" id="rock" name="rock">
+          <label for="rock">Rock</label>
+        </div>
+    
+        <div>
+          <input type="checkbox" id="dance" name="dance">
+          <label for="dance">Dance</label>
+        </div>
+    
+        <div>
+          <input type="checkbox" id="latin" name="latin">
+          <label for="latin">Latin</label>
+        </div>
+    </div>
+
+    <div
+    style="
+    background-color: #E8E8E8 !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;   
+    padding: 5px 10px 10px 10px;
+    ">
+        <div>
+            <p>Accetti "Termini e Condizioni"?</p>
+            <p style="font-size: 0.75em"><a href="http://www.privacy.it/archivio/testocoord.html" target="_blank">Legge n. 675 del 31 dicembre 1996 - Tutela delle persone e di altri soggetti rispetto al trattamento dei dati personali</a>.</p>
+        </div>
+
+        <div>
+            <input type="radio" id="accetto" name="privacy-checkbox" value="accetto">
+            <label for="accetto">Accetto</label>
+
+            <input type="radio" id="rifiuto" name="privacy-checkbox" value="rifiuto">
+            <label for="rifiuto">Rifiuto</label>
+        </div>
+    <div>
+
+    <div style="padding: 15px">
+        <button type="submit">Invia registrazione</button>
+    </div>
+
+</form>
+
+</body>
+</html>
